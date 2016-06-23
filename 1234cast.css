@@ -1,0 +1,198 @@
+
+
+body {
+    background-color:#B2E6FE;
+}
+#header {
+    background-image: url("https://garyallenonbusiness.files.wordpress.com/2015/01/blue-sky.jpg");
+    background-size: 160px 120px;
+    color:black;
+    display: flex;
+   /* justify-content: flex-start;
+    align-items: flex-start;*/
+    padding:5px;
+    margin:5px;
+    border:1px solid black;
+    border-bottom:thick solid orange;
+    height:70px;
+
+}
+
+ul {
+    position:absolute;
+    list-style-type: none;
+    padding: 0;
+    background-color: transparent;
+    right:0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size:150%;
+    text-align: center;
+    vertical-align: bottom;
+
+    padding: 14px 16px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 255, 255, .1);
+}
+
+#header > h1{
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+/*#chart {
+    border:thin solid black;
+    margin: 5px;
+}*/
+#sliderDisplay {
+    position: relative;
+    border-radius: 10px;
+    background-color:#ffffcc;/*:#2AC3F2;*/    
+    border:1px solid black;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border:thin solid black;
+    margin:5px;
+                /*0 auto;*/
+    width: 120px;
+    text-align: center;
+    height:100px;
+    left:45%;
+    
+    /*width: 100%;*/
+    /*margin: 5px;*/
+    /*font-size:50%;*/
+}
+#vizWeather {
+    /*border:thin solid black;*/
+    width: 100%;
+    /*margin: 5px;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*line-height: normal;*/
+    font-size:50%;
+}
+#row {
+    border:thin solid black;
+    margin: 5px;
+}
+.sliderContainer {
+    /*width:80%;*/
+    /*border:thin solid red;*/
+    /*margin: 5px;*/
+    /*height:200px;*/
+}
+
+#section {
+    height:80%;
+    padding:15px; 
+    margin:5px;
+    /*border:thin solid black;//////////////////////////*/
+}
+.boxContainer{
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size:130%;
+    text-align: center;
+    /*border:thin solid black;*/
+    margin-left:100px;
+    margin-right:100px;
+    width:250px;
+    height:250px;
+    margin:0;
+}
+#boxContainer1 {
+    float:left;
+}
+#boxContainer2{
+    position:relative;
+    margin: 0 auto;
+    width:400px;
+    height:300px;
+}
+#boxContainer3 {
+    float:right;
+}
+#displayImage{
+    border-radius: 10px;
+    /*background-color:#fc3cf4;/*:#2AC3F2;*/   
+    border:1px solid black;
+    height:70%;
+    width: 50%;
+    margin-top:10%;
+
+    margin-right:5%;
+    float:right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+#displayImage img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%
+
+}
+#displayText {
+    border-radius: 10px;
+    /*border:1px solid black;*/
+
+    /*background-color:#fc3cf4;/*:#2AC3F2;*/   
+    width:35%;
+    height:70%;
+    margin-top: 10%;
+    margin-left:5%;
+    /*vertical-align: center;*/
+    float:left;
+}
+.box{
+    font-size:90%;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#ffffcc;/*:#2AC3F2;*/    
+    border:1px solid black;
+    height:90%;
+    width: 100%;
+}
+
+/*    border-radius: 10px;
+    background-color:#2AC3F2;
+    border:3px solid black;
+    margin:0;
+    margin-left:25px;
+    margin-right:25px;
+
+    
+    color:black;
+    text-align:center;
+    padding:5px; 
+    width:100px;
+    height:100px;
+    top:70px;
+    /*bottom:0;
+    position:relative;*/
+
+/*#mainBox {
+    
+}*/
+
